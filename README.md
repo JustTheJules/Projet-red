@@ -1,24 +1,30 @@
 # Projet Red
-by Amaury, Jules
 
-## Présentation
-Projet Red est un petit jeu en ligne de commande écrit en **Go**.  
-Le joueur incarne un personnage qui affronte des monstres (ex. dragon rouge, loup-garou) dans des combats au tour par tour.  
-Le jeu propose :
-- Une génération aléatoire des monstres à chaque nouveau combat.
-- Un système de potions pour restaurer ses points de vie.
-- La possibilité de recommencer un combat après une défaite ou de revenir au menu principal.
-
-Ce projet a été conçu dans un but pédagogique, pour s’exercer à la programmation en Go.
+## 🎮 Description
+**Projet Red** est un petit **jeu en ligne de commande** écrit en **Go**.  
+Le joueur affronte des **monstres générés aléatoirement** dans des **combats au tour par tour**, avec la possibilité d’utiliser des **potions** et de **rejouer** après une défaite ou de **revenir au menu**.
 
 ---
 
-## Démarrage
-cd projet-red
-go run .
+## 🧩 Fonctionnalités
+- Combats au tour par tour contre des monstres (ex. dragon rouge, loup-garou).  
+- **Génération aléatoire** d’adversaires à chaque combat.  
+- **Système de potions** pour restaurer les PV.  
+- **Boucle de jeu** avec reprise après défaite ou retour au menu principal.  
+- Exécution 100 % **terminal** (aucune dépendance exotique).
 
-### Prérequis
-- Avoir **Go 1.20 ou plus** installé sur votre machine.  
-  Vous pouvez vérifier avec :
-  ```bash
-  go version
+---
+
+## ⚙️ Installation & exécution
+1. **Prérequis**  
+   - Go **1.20+** recommandé  
+   - Vérifier l’installation :
+     ```bash
+     go version
+     ```
+
+2. **Cloner & lancer**
+   ```bash
+   git clone https://github.com/JustTheJules/Projet-red.git
+   cd Projet-red
+   go run .
